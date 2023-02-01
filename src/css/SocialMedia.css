@@ -7,20 +7,23 @@
   display: flex;
   /* align-items: center; */
   /* justify-content: space-between; */
-position: absolute;
+position: relative;
 /* left: -400px; */
 }
 
 .social-media ul li{
   list-style: none;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .imgSvg {
-  color: blue !important;
+  color: aliceblue;
+  width: 60px;
+
+
 }
 .imgSvg:hover {
-  color: red !important;
+  color: #ff6f07
 }
 
 

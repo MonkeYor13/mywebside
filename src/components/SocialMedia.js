@@ -2,11 +2,9 @@ import React, { Component } from "react";
 import "../css/SocialMedia.css";
 
 // importar imagenes
-// import twitter from "../assets/twitter.svg";
-// import instagram from "../assets/instagram.svg";
-// import linkedin from "../assets/linkedin.svg";
-// import TwitterIcon from "../assets/twitter";
-import twitter from '../assets/twitter';
+import TwitterIcon from "../assets/TwitterIcon";
+import InstagramIcon from "../assets/InstagramIcon";
+import LinkedIcon from "../assets/LinkedIcon";
 
 class SocialMedia extends Component {
   render() {
@@ -14,17 +12,16 @@ class SocialMedia extends Component {
       <div className="social-media">
         <ul>
           <li>
-          {/* <TwitterIcon /> */}
-
-            {/* <img className="imgSvg" src={twitter} alt="logo" /> */}
-            <img className="imgSvg" src={twitter.img1} alt="logo" />
-          </li>
-          {/* <li>
-            <img className="logo" src={instagram} alt="logo" />
+            <TwitterIcon />
           </li>
           <li>
-            <img className="logo" src={linkedin} alt="logo" />
-          </li> */}
+            <InstagramIcon />
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/yorvisjesusrodriguez-169163146/">
+              <LinkedIcon />
+            </a>
+          </li>
         </ul>
       </div>
     );
