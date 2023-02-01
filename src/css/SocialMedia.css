@@ -1,5 +1,5 @@
 .social-media {
-  background-color: red;
+  /* background-color: red; */
   /* width: 20%; */
   height: auto;
   margin-top: 300px;
@@ -7,7 +7,7 @@
   display: flex;
   /* align-items: center; */
   /* justify-content: space-between; */
-position: relative;
+position: absolute;
 /* left: -400px; */
 }
 
@@ -16,6 +16,11 @@ position: relative;
   padding-bottom: 30px;
 }
 
-.social-media ul li img{
-  font-size: xx-large;
+.corazon{
+  *color: #ff6f07;
+  fill: #ff6f07 !important;
+
 }
+
+
+
